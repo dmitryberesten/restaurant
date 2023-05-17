@@ -1,0 +1,23 @@
+/* .bgdinner {
+  background-image: url('../../../images/menubg.jpg');
+  height: 550px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+} */
+
+.bgImage {
+  background-image: url('../../../images/menubg.jpg');
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(35%);
+  position: absolute;
+  color: rgba(37, 37, 37, 0.87);
+}

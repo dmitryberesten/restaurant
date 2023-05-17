@@ -1,0 +1,12 @@
+.styledBg {
+  background: url('/public/images/hero.jpg');
+  width: 100%;
+  min-height: 90vh;
+  position: absolute;
+  filter: brightness(50%);
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

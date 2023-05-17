@@ -1,0 +1,120 @@
+/* .menuBg {
+  background-image: url(' ../../../../images/about.jpg ');
+  height: 550px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+} */
+
+.swiperWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  filter: brightness(1);
+}
+
+.swiperBox {
+  width: 60%;
+}
+
+.slides {
+  border: 3px solid white;
+  height: 400px;
+  width: 325px;
+  background-attachment: fixed;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.startSlide {
+  margin-left: 75px;
+}
+
+.firstSlide {
+  background-image: url('../../../../images/specialMenu1.jpg');
+}
+
+.SecoundSlide {
+  background-image: url('../../../../images/specialMenu2.jpg');
+}
+
+.thirdSlide {
+  background-image: url('../../../../images/specialMenu3.jpg');
+}
+
+.SlideWrapper {
+  margin-top: 2.6em;
+}
+
+.fourthSlide {
+  background-image: url('../../../../images/specialMenu4.jpg');
+}
+
+.fifthSlide {
+  background-image: url('../../../../images/specialMenu5.jpg');
+}
+
+.sixthSlide {
+  background-image: url('../../../../images/specialMenu6.jpg');
+}
+
+.seventhSlide {
+  background-image: url('../../../../images/specialMenu7.jpg');
+}
+
+@media (min-width: 320px) {
+  .swiperBox {
+    width: 95%;
+  }
+  .slides {
+    border: 3px solid white;
+    height: 400px;
+    width: 300px;
+    background-attachment: fixed;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 375px) {
+  .swiperBox {
+    width: 80%;
+  }
+}
+@media (min-width: 425px) {
+  .swiperBox {
+    width: 75%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiperBox {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiperBox {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .swiperBox {
+    width: 60%;
+  }
+  .slides {
+    height: 400px;
+    width: 325px;
+  }
+}
