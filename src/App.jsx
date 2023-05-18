@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './header/index';
-import Hero from './hero/index';
-import AboutUs from './aboutUs/index';
-import Dishes from './dishes/index';
-import Accordion from './accordion/index';
-import Menu from '../pages/menu/index';
-import QualityFood from './QualityFood/index';
-import About from '../pages/about/index';
-import QuickContact from './quickContact/index';
-import Footer from './footer/index';
-import LinkCantact from './linkContact/index';
-import Contact from '../pages/contact/index';
+import Header from './components/header/index';
+import Hero from './components/hero/index';
+import AboutUs from './components/aboutUs/index';
+import Dishes from './components/dishes/index';
+import Accordion from './components/accordion/index';
+import Menu from './pages/menu/index';
+import QualityFood from './components/QualityFood/index';
+import About from './pages/about/index';
+import QuickContact from './components/quickContact/index';
+import Footer from './components/footer/index';
+import LinkCantact from './components/linkContact/index';
+import Contact from './pages/contact/index';
 
 function App() {
   return (
