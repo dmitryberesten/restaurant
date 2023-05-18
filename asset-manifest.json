@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f19b252a.css",
-    "main.js": "/static/js/main.6eae15bb.js",
-    "static/media/specialMenu7.jpg": "/static/media/specialMenu7.c184889ca3d5bbcc7ffa.jpg",
-    "static/media/specialMenu5.jpg": "/static/media/specialMenu5.25134bce0bbd81be7e1e.jpg",
-    "static/media/menubg.jpg": "/static/media/menubg.9921da2c1fba03d2f7ec.jpg",
-    "static/media/specialMenu3.jpg": "/static/media/specialMenu3.ef35413ecb9d7c5e7df6.jpg",
-    "static/media/restaurant.jpg": "/static/media/restaurant.5bf16cc9f487f393fa76.jpg",
-    "static/media/specialMenu6.jpg": "/static/media/specialMenu6.bab78520961d16ae3357.jpg",
-    "static/media/specialMenu4.jpg": "/static/media/specialMenu4.a8ab64a861b5d23aea87.jpg",
-    "static/media/specialMenu1.jpg": "/static/media/specialMenu1.c940f421e5ce7a2b2c0d.jpg",
-    "static/media/menuherobg.jpg": "/static/media/menuherobg.21724be9f078411cc619.jpg",
-    "static/media/hero.jpg": "/static/media/hero.9f1314ed0d98f07bd62d.jpg",
-    "static/media/specialMenu2.jpg": "/static/media/specialMenu2.30803ae6ca258ec506bf.jpg",
-    "index.html": "/index.html",
-    "main.f19b252a.css.map": "/static/css/main.f19b252a.css.map",
-    "main.6eae15bb.js.map": "/static/js/main.6eae15bb.js.map"
+    "main.css": "/restaurant/static/css/main.f4c34a71.css",
+    "main.js": "/restaurant/static/js/main.a792e382.js",
+    "static/media/specialMenu7.jpg": "/restaurant/static/media/specialMenu7.c184889ca3d5bbcc7ffa.jpg",
+    "static/media/specialMenu5.jpg": "/restaurant/static/media/specialMenu5.25134bce0bbd81be7e1e.jpg",
+    "static/media/menubg.jpg": "/restaurant/static/media/menubg.9921da2c1fba03d2f7ec.jpg",
+    "static/media/specialMenu3.jpg": "/restaurant/static/media/specialMenu3.ef35413ecb9d7c5e7df6.jpg",
+    "static/media/restaurant.jpg": "/restaurant/static/media/restaurant.5bf16cc9f487f393fa76.jpg",
+    "static/media/specialMenu6.jpg": "/restaurant/static/media/specialMenu6.bab78520961d16ae3357.jpg",
+    "static/media/specialMenu4.jpg": "/restaurant/static/media/specialMenu4.a8ab64a861b5d23aea87.jpg",
+    "static/media/specialMenu1.jpg": "/restaurant/static/media/specialMenu1.c940f421e5ce7a2b2c0d.jpg",
+    "static/media/menuherobg.jpg": "/restaurant/static/media/menuherobg.21724be9f078411cc619.jpg",
+    "static/media/hero.jpg": "/restaurant/static/media/hero.9f1314ed0d98f07bd62d.jpg",
+    "static/media/specialMenu2.jpg": "/restaurant/static/media/specialMenu2.30803ae6ca258ec506bf.jpg",
+    "index.html": "/restaurant/index.html",
+    "main.f4c34a71.css.map": "/restaurant/static/css/main.f4c34a71.css.map",
+    "main.a792e382.js.map": "/restaurant/static/js/main.a792e382.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19b252a.css",
-    "static/js/main.6eae15bb.js"
+    "static/css/main.f4c34a71.css",
+    "static/js/main.a792e382.js"
   ]
 }
