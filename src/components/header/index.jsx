@@ -3,15 +3,15 @@ import {
   StyledHeader,
   StyledNav,
   StyledNavLi,
-  StyledNavA,
+  // StyledNavA,
   StyledLogo,
-  StyledLogoImg,
+  // StyledLogoImg,
   StyledLink,
-  StyledHamburger,
+  // StyledHamburger,
   StyledNavUl,
   StyledBurger,
 } from './styles';
-import Logo from '../../images/logo.svg';
+// import Logo from '../../images/logo.svg';
 import Hamburger from 'hamburger-react';
 
 const Header = () => {

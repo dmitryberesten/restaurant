@@ -1,4 +1,4 @@
-import { AiOutlineHome } from 'react-icons/ai';
+// import { AiOutlineHome } from 'react-icons/ai';
 
 const quickContactData = [
   {

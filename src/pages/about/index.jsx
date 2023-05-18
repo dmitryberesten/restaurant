@@ -5,7 +5,7 @@ import {
   ContainerHero,
   StyledH1,
   MainContent,
-  TeamWrapper,
+  // TeamWrapper,
   StyledP,
 } from './styles/index';
 import Team from '../../components/Team/index';

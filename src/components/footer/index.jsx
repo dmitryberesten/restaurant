@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Styledfooter,
-  LogoImg,
+  // LogoImg,
   FooterSocials,
   StyledFacebook,
   StyledTwitter,
@@ -14,7 +14,7 @@ import {
   StyledSpan,
   ColorLogo,
 } from './styles/index';
-import Logo from '../../images/logo.svg';
+// import Logo from '../../images/logo.svg';
 
 const Footer = () => {
   return (

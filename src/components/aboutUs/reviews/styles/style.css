@@ -7,7 +7,7 @@
   --fixed-width: 620px;
 }
 /*
-  =============== 
+  ===============
   Global Styles
   ===============
   */
@@ -81,12 +81,12 @@ p {
   body {
     font-size: 1rem;
   }
-  h1,
+  /* h1,
   h2,
   h3,
   h4 {
-    /* line-height: 1; */
-  }
+
+  } */
 }
 
 @media screen and (min-width: 992px) {

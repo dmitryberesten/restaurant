@@ -3,7 +3,7 @@ import QuickContact from '../../components/quickContact';
 import {
   ContactHero,
   InfoHero,
-  WrapperHero,
+  // WrapperHero,
   ContentHero,
   StyledH1,
   Contactsection,

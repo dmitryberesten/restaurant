@@ -6,7 +6,7 @@ import {
   StyledSpan,
   TitleMenu,
   MainContent,
-  BackToAll,
+  // BackToAll,
 } from './styles/index';
 import './styles/style.css';
 import Categories from './categories';
@@ -22,7 +22,9 @@ const BacktoAllCategories = ['Усе'];
 
 function Menu() {
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState(allCategories);
+  // const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
+
   const [activeCategory, setActiveCategory] = useState('');
 
   const filterItems = (category) => {
