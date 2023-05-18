@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/header/index';
 import Hero from './components/hero/index';
@@ -12,6 +11,7 @@ import QuickContact from './components/quickContact/index';
 import Footer from './components/footer/index';
 import LinkCantact from './components/linkContact/index';
 import Contact from './pages/contact/index';
+import './App.css';
 
 function App() {
   return (
