@@ -70,7 +70,7 @@ export const TeamContent = styled('div')({
   boxShadow: '0px 6px 15px rgba(1, 15, 28, 0.06)',
   position: 'relative',
   zIndex: '2',
-  position: 'relative',
+  // position: 'relative',
 
   '&:before, &:after': {
     content: '""',
@@ -84,9 +84,9 @@ export const TeamContent = styled('div')({
     zIndex: '-1',
     borderRadius: 'inherit',
   },
-  '&:before': {
-    backgroundColor: '#f55f31',
-  },
+  // '&:before': {
+  //   backgroundColor: '#f55f31',
+  // },
   '&:hover:before, &:hover:after': {
     height: '100%',
     backgroundColor: '#f55f31',

@@ -7,7 +7,9 @@ import {
   MessageField,
 } from './styles';
 
-import { InputLabel, MenuItem, Button } from '@mui/material';
+// import { InputLabel, MenuItem, Button } from '@mui/material';
+import { MenuItem, Button } from '@mui/material';
+
 
 const options = [
   { value: 'option1', label: 'День народження' },
@@ -18,7 +20,7 @@ const options = [
 ];
 
 const Form = () => {
-  const labelId = 'select-label';
+  // const labelId = 'select-label';
   const [selectedOption, setSelectedOption] = useState('');
 
   const handleSubmit = (event) => {
