@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/restaurant">
         <Header />
         <Routes>
           <Route
