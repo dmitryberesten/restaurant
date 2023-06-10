@@ -46,7 +46,7 @@ export const OurTeamWrapper = styled('div')({
     display: 'grid',
   },
   '@media (min-width: 425px)': { display: 'flex', width: '100%' },
-  '@media (min-width: 1500px)': { width: '80%' },
+  '@media (min-width: 1580px)': { width: '80%' },
 });
 
 export const TeamImg = styled('div')({

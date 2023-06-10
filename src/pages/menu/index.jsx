@@ -13,12 +13,9 @@ import Categories from './categories';
 import CardMenu from './cardMenu';
 import items from './dataMenu';
 
-const allCategories = [
-  'Усе',
-  ...new Set(items.map((item) => item.category)),
-];
+const allCategories = ['Все', ...new Set(items.map(item => item.category))];
 
-const BacktoAllCategories = ['Усе'];
+// const BacktoAllCategories = ['Все'];
 
 function Menu() {
   const [menuItems, setMenuItems] = useState(items);
@@ -27,30 +24,31 @@ function Menu() {
 
   const [activeCategory, setActiveCategory] = useState('');
 
-  const filterItems = (category) => {
-    if (category === 'Усе') {
+  const filterItems = category => {
+    if (category === 'Все') {
       setMenuItems(items);
       return;
     }
-    const newItems = items.filter((item) => item.category === category);
+
+    const newItems = items.filter(item => item.category === category);
     setMenuItems(newItems);
   };
+
   return (
     <MenuSection>
+
       <HeroMenu>
         <div className="heroMenu"></div>
         <StyledWrapper>
-          Apeptio<StyledSpan>Ресторан</StyledSpan>
+          Apetito<StyledSpan>Ресторан</StyledSpan>
           <TitleMenu>Меню</TitleMenu>
         </StyledWrapper>
       </HeroMenu>
+
       <MainContent>
-        <section className="menu section">
-          <div className="title">
-            <h2>Меню</h2>
-            <div className="underline"></div>
-          </div>
-        </section>
+        {/* <section className="menu section">
+
+        </section> */}
         <Categories
           filterItems={filterItems}
           categories={categories}
@@ -59,13 +57,15 @@ function Menu() {
         />
         <CardMenu items={menuItems} />
       </MainContent>
-      <Categories
+
+      {/* <Categories
         filterItems={filterItems}
         categories={BacktoAllCategories}
         activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}
         className="second-categories"
-      />
+      /> */}
+
     </MenuSection>
   );
 }

@@ -6,6 +6,7 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
+
 /*
   ===============
   Global Styles
@@ -19,6 +20,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: var(--clr-grey-10);
   line-height: 1.5;
@@ -28,15 +30,19 @@ body {
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
+
 h4 {
   font-size: 0.875rem;
 }
+
 p {
   margin-bottom: 1.25rem;
 }
@@ -45,6 +51,7 @@ p {
   p {
     font-size: 13px;
   }
+
   .button-container {
     margin-top: 2em;
   }
@@ -54,8 +61,9 @@ p {
   p {
     font-size: 18px;
   }
+
   .button-container {
-    margin-top: 0;
+    margin-top: 3em;
   }
 }
 
@@ -69,24 +77,22 @@ p {
   h1 {
     font-size: 4rem;
   }
+
   h2 {
     font-size: 2.5rem;
   }
+
   h3 {
     font-size: 1.75rem;
   }
+
   h4 {
     font-size: 1rem;
   }
+
   body {
     font-size: 1rem;
   }
-  /* h1,
-  h2,
-  h3,
-  h4 {
-
-  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -99,6 +105,7 @@ p {
   text-align: center;
   margin-bottom: 4rem;
 }
+
 .underline {
   height: 0.25rem;
   width: 5rem;
@@ -119,9 +126,11 @@ p {
   margin-top: 30px;
   width: 90%;
 }
+
 .review:hover {
   box-shadow: var(--dark-shadow);
 }
+
 .img-container {
   position: relative;
   width: 150px;
@@ -130,6 +139,7 @@ p {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
+
 .person-img {
   width: 100%;
   display: block;
@@ -138,6 +148,7 @@ p {
   border-radius: 50%;
   position: relative;
 }
+
 .quote-icon {
   position: absolute;
   top: 0;
@@ -151,6 +162,7 @@ p {
   background: #e96a43;
   color: var(--clr-white);
 }
+
 .img-container::before {
   content: '';
   width: 100%;
@@ -161,20 +173,24 @@ p {
   right: -0.4rem;
   border-radius: 50%;
 }
+
 .author {
   margin-bottom: 0.25rem;
   text-align: center;
 }
+
 .rating {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: #e96a43;
   font-size: 1rem;
 }
+
 .info {
   margin-bottom: 0.75rem;
   height: 150px;
 }
+
 .prev-btn,
 .next-btn {
   color: #e96a43;
@@ -185,10 +201,12 @@ p {
   transition: var(--transition);
   cursor: pointer;
 }
+
 .prev-btn:hover,
 .next-btn:hover {
   color: #e96a43;
 }
+
 .random-btn {
   margin-top: 0.6rem;
   background: var(--clr-primary-10);
@@ -202,6 +220,7 @@ p {
   border-color: transparent;
   cursor: pointer;
 }
+
 .random-btn:hover {
   background: #dfccb7;
   color: #e96a43;

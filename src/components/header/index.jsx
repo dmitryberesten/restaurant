@@ -5,13 +5,13 @@ import {
   StyledNavLi,
   // StyledNavA,
   StyledLogo,
-  // StyledLogoImg,
+  StyledLogoImg,
   StyledLink,
   // StyledHamburger,
   StyledNavUl,
   StyledBurger,
 } from './styles';
-// import Logo from '../../images/logo.svg';
+import Logo from '../../images/logo.svg';
 import Hamburger from 'hamburger-react';
 
 const Header = () => {
@@ -37,7 +37,7 @@ const Header = () => {
   return (
     <StyledHeader fixed={fixed} className={fixed ? 'fixed' : ''}>
       <StyledLogo>
-        <StyledLink to="/">{/* <StyledLogoImg src={Logo} /> */}</StyledLink>
+        <StyledLink to="/"><StyledLogoImg src={Logo} /></StyledLink>
       </StyledLogo>
       <StyledBurger>
         <Hamburger className="halo" toggled={isOpen} toggle={handleToggle} />

@@ -14,6 +14,7 @@ import {
   StyledSpan,
   ColorLogo,
 } from './styles/index';
+// import { Link } from 'react-router-dom';
 // import Logo from '../../images/logo.svg';
 
 const Footer = () => {
@@ -34,8 +35,17 @@ const Footer = () => {
           <StyledSpan>+380 63 073 2517</StyledSpan>
         </Styledinfo>
         <StyledP>
-          Всі права захищені 2023 © - Apetito
-          <ColorLogo>Ресторан</ColorLogo>
+          Розробив
+          <ColorLogo>
+            <a
+              href="https://www.linkedin.com/in/dmytrii-beresten/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              Dmytrii Beresten
+            </a>
+          </ColorLogo>
         </StyledP>
       </StyledRight>
     </Styledfooter>

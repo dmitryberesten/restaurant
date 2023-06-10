@@ -12,7 +12,7 @@ import quickContactData from './quickContactData';
 const QuickContact = () => {
   return (
     <WrapperQuickContact>
-      {quickContactData.map((contactInfo) => {
+      {quickContactData.map(contactInfo => {
         const { id, heading, fisrtData, secoundData } = contactInfo;
         return (
           <SingleCardQContact key={id}>

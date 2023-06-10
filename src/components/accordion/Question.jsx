@@ -5,6 +5,7 @@ import './styles/style.css';
 
 const Question = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
+  
   return (
     <article className='question'>
       <header>

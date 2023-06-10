@@ -5,11 +5,11 @@ import {
   InputField,
   SelectField,
   MessageField,
+  MessageContainer,
 } from './styles';
 
 // import { InputLabel, MenuItem, Button } from '@mui/material';
 import { MenuItem, Button } from '@mui/material';
-
 
 const options = [
   { value: 'option1', label: 'День народження' },
@@ -20,17 +20,28 @@ const options = [
 ];
 
 const Form = () => {
-  // const labelId = 'select-label';
   const [selectedOption, setSelectedOption] = useState('');
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
     // handle form submit logic
+
+    // Позначаємо, що форма була відправлена
+    setFormSubmitted(true);
   };
 
-  const handleOptionChange = (event) => {
+  const handleOptionChange = event => {
     setSelectedOption(event.target.value);
   };
+
+  if (formSubmitted) {
+    return (
+      <MessageContainer>
+        Дякуємо за повідомлення!
+      </MessageContainer>
+    );
+  }
 
   return (
     <FormContainer onSubmit={handleSubmit}>

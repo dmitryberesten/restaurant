@@ -10,8 +10,8 @@ const quickContactData = [
   {
     id: 2,
     heading: 'БРОНЮВАННЯ',
-    fisrtData: 'Ресторан "Apetito"',
-    secoundData: 'Київ, Богдана Хмельницького 54',
+    fisrtData: '+380 63 073 1845',
+    secoundData: '+380 96 075 2710',
   },
   {
     id: 3,

@@ -12,6 +12,7 @@ export const HeroMenu = styled('div')({
 });
 
 export const StyledWrapper = styled('div')({
+  paddingTop: '2em',
   width: '100%',
   position: 'relative',
   top: '1.8em',
