@@ -8,14 +8,14 @@ export const StyledHeader = styled('header')(({ fixed }) => ({
   display: 'flex',
   alignItems: 'center',
   width: '100%',
-  height: '120px',
+  height: '80px',
   // transition: '0.3s ease-in-out',
   justifyContent: 'space-around',
   zIndex: '99999',
   transition: '.6s',
   '&.fixed': {
     background: '#202020',
-    height: '100px',
+    height: '80px',
   },
 }));
 

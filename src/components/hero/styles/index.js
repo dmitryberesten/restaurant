@@ -34,7 +34,8 @@ export const H1Hero = styled('h1')({
   fontWeight: '800',
   letterSpacing: '3px',
   '@media (min-width: 320px)': {
-    fontSize: '21px',
+    marginTop: '200px',
+    fontSize: '31px',
   },
   '@media (min-width: 640px)': {
     fontSize: '35px',
@@ -60,7 +61,7 @@ export const H3SubTitle = styled('h3')({
   fontWeight: '700',
   '@media (min-width: 320px)': {
     width: '90%',
-    fontSize: '14px',
+    fontSize: '24px',
   },
   '@media (min-width: 620px)': {
     width: '90%',

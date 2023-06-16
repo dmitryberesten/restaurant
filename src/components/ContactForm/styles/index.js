@@ -22,6 +22,7 @@ export const FormContainer = styled('form')({
   fontFamily: 'Poppins, sans-serif !important',
   '@media (min-width: 320px)': {
     width: '90%',
+    marginBottom: '100px',
   },
   '@media (min-width: 720px)': {
     width: '55%',
@@ -29,15 +30,20 @@ export const FormContainer = styled('form')({
 });
 
 export const MessageContainer = styled('p')({
-  display: 'block',
-  margin: 'auto',
-  marginBottom: '0',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+  width: '55%',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+
   padding: '3rem',
   border: '1px solid #ccc',
   borderRadius: '8px',
   boxShadow: '2px 2px 10px #636e72',
   fontFamily: 'Poppins, sans-serif !important',
   '@media (min-width: 320px)': {
+    marginTop: '200px',
     width: '90%',
   },
   '@media (min-width: 720px)': {
@@ -51,6 +57,9 @@ export const InputContainer = styled('div')({
   gridTemplateColumns: '1fr 1fr',
   gap: '1rem',
   width: '100%',
+  '@media (max-width: 520px)': {
+    gridTemplateColumns: '1fr',
+  },
 });
 
 export const InputField = styled(TextField)({

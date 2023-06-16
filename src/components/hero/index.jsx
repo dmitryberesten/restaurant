@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="styledBg"></div>
       <HeroWrapper>
         <H1Hero>
-          Вітаємо в<SpanHero>Апетітто</SpanHero>!
+          Вітаємо в <SpanHero>Апетітто</SpanHero>!
         </H1Hero>
 
         <H3SubTitle>Найпопулярніший ресторан</H3SubTitle>

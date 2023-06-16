@@ -45,7 +45,7 @@ export const OurTeamWrapper = styled('div')({
   '@media (min-width: 320px)': {
     display: 'grid',
   },
-  '@media (min-width: 425px)': { display: 'flex', width: '100%' },
+  '@media (min-width: 400px)': { display: 'flex', width: '100%' },
   '@media (min-width: 1580px)': { width: '80%' },
 });
 
@@ -116,6 +116,8 @@ export const SingleCardsTeam = styled('div')({
   height: '150px',
   position: 'relative',
   textAlign: 'center',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 
   ':before': {
     content: "''",

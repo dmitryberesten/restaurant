@@ -8,7 +8,7 @@ import {
 
 export const Styledfooter = styled('footer')({
   width: '100%',
-  minHeight: '35vh',
+  minHeight: '20vh',
   background: '#2c2c2c',
 });
 
@@ -26,7 +26,7 @@ export const LogoImg = styled('img')({
 export const FooterSocials = styled('div')({
   width: '100%',
   fontSize: '2.5em',
-  minHeight: '18vh',
+  minHeight: '10vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
