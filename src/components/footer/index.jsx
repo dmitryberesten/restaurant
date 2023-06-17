@@ -30,7 +30,7 @@ const Footer = () => {
       {/* <LogoImg src={Logo} alt="" /> */}
       <StyledRight>
         <Styledinfo>
-          <StyledSpan>Ресторан Apetito</StyledSpan>
+          <StyledSpan>Ресторан Apetitto</StyledSpan>
           <StyledSpan>Київ, Богдана Хмельницького 54</StyledSpan>
           <StyledSpan>+380 63 073 2517</StyledSpan>
         </Styledinfo>

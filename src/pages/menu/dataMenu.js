@@ -15,14 +15,14 @@ const menu = [
     img: 'https://www.przyslijprzepis.pl/media/cache/big/uploads/media/recipe/0005/88/7090c2bfb5438fca6c393a263224b7988dcb1be7.jpeg',
     desc: `Свинячі відбивні, хрусткі овочі та сир, а також золотиста картопля фрі - чудове поєднання.`,
   },
-  {
-    id: 3,
-    title: 'Різотто з креветками та спаржею',
-    category: 'вечеря',
-    price: 6.99,
-    img: 'https://i0.wp.com/blogzapetytem.pl/wp-content/uploads/2019/06/5B8F1E3C-B900-4A20-956B-847DDF0F9F9F.jpeg?fit=2048%2C1552&ssl=1',
-    desc: `Різотто з креветками та спаржею - італійська страва.`,
-  },
+  // {
+  //   id: 3,
+  //   title: 'Різотто з креветками та спаржею',
+  //   category: 'вечеря',
+  //   price: 6.99,
+  //   img: 'https://i0.wp.com/blogzApetittoittoittoytem.pl/wp-content/uploads/2019/06/5B8F1E3C-B900-4A20-956B-847DDF0F9F9F.jpeg?fit=2048%2C1552&ssl=1',
+  //   desc: `Різотто з креветками та спаржею - італійська страва.`,
+  // },
   {
     id: 4,
     title: 'Шоколадний коктейль',

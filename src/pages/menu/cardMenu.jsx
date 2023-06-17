@@ -1,9 +1,13 @@
 import React from 'react';
 
-const cardMenu = ({ items }) => {
+const CardMenu = ({ items }) => {
+  const handleOrderClick = title => {
+    console.log('Замовлено:', title);
+    // Додати код для обробки замовлення
+  };
+
   return (
     <div className="section-center">
-
       {items.map(menuItem => {
         const { id, title, price, img, desc } = menuItem;
 
@@ -17,6 +21,13 @@ const cardMenu = ({ items }) => {
                 <h4 className="price">{price}грн</h4>
               </header>
               <p className="item-text">{desc}</p>
+              <button
+                type="button"
+                className="order-btn"
+                onClick={() => handleOrderClick(title)}
+              >
+                Замовити
+              </button>
             </div>
           </article>
         );
@@ -25,4 +36,4 @@ const cardMenu = ({ items }) => {
   );
 };
 
-export default cardMenu;
+export default CardMenu;

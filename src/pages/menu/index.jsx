@@ -15,14 +15,11 @@ import items from './dataMenu';
 
 const allCategories = ['Все', ...new Set(items.map(item => item.category))];
 
-// const BacktoAllCategories = ['Все'];
-
 function Menu() {
   const [menuItems, setMenuItems] = useState(items);
-  // const [categories, setCategories] = useState(allCategories);
   const [categories] = useState(allCategories);
-
   const [activeCategory, setActiveCategory] = useState('');
+  const [showModal, setShowModal] = useState(false); // Додано стан для відображення модального вікна
 
   const filterItems = category => {
     if (category === 'Все') {
@@ -34,9 +31,23 @@ function Menu() {
     setMenuItems(newItems);
   };
 
+  const handleOrderClick = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+
+const handleBackdropClick = e => {
+  if (e.target === e.currentTarget) {
+    closeModal();
+  }
+};
+
   return (
     <MenuSection>
-
       <HeroMenu>
         <div className="heroMenu"></div>
         <StyledWrapper>
@@ -46,26 +57,31 @@ function Menu() {
       </HeroMenu>
 
       <MainContent>
-        {/* <section className="menu section">
-
-        </section> */}
         <Categories
           filterItems={filterItems}
           categories={categories}
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
         />
-        <CardMenu items={menuItems} />
+        <CardMenu items={menuItems} handleOrderClick={handleOrderClick} />
       </MainContent>
 
-      {/* <Categories
-        filterItems={filterItems}
-        categories={BacktoAllCategories}
-        activeCategory={activeCategory}
-        setActiveCategory={setActiveCategory}
-        className="second-categories"
-      /> */}
+      {/* Модальне вікно */}
+      {showModal && (
+        <div className="modal" onClick={handleBackdropClick}>
+          <div className="modal-content">
+            <span className="close" onClick={closeModal}>
+              &times;
+            </span>
+            <h2>Модальне вікно</h2>
+            <p>Тут можна додати вміст модального вікна.</p>
+          </div>
+        </div>
+      )}
 
+      <button className="fixed-button" onClick={handleOrderClick}>
+        Замовлення
+      </button>
     </MenuSection>
   );
 }

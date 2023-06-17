@@ -4,7 +4,7 @@ const quickContactData = [
   {
     id: 1,
     heading: 'АДРЕСА',
-    fisrtData: 'Ресторан "Apetito"',
+    fisrtData: 'Ресторан "Apetitto"',
     secoundData: 'Київ, Богдана Хмельницького 54',
   },
   {

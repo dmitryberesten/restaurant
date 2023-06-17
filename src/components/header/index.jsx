@@ -51,10 +51,10 @@ const Header = () => {
             <StyledLink to="/">Головна</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
-            <StyledLink to="Onas">Про нас</StyledLink>
+            <StyledLink to="/Menu">Меню</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
-            <StyledLink to="/Menu">Меню</StyledLink>
+            <StyledLink to="Onas">Про нас</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
             <StyledLink to="/kontakt">Контакти</StyledLink>

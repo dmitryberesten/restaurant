@@ -29,10 +29,10 @@ const PopularDishes = () => {
       </HeaderDishes>
       <div className="swiperWrapper">
         <Swiper
-          spaceBetween={80}
+          spaceBetween={10}
           slidesPerView={isSmallScreen ? 1 : 3}
           className="swiperBox"
-          initialSlide={2}
+          initialSlide={3}
           loop={true}
           centeredSlides={true}
           centeredSlidesBounds={true}
@@ -40,7 +40,7 @@ const PopularDishes = () => {
             clickable: true,
           }}
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           modules={[Autoplay, Pagination]}

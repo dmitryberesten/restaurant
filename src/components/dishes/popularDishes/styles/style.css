@@ -32,6 +32,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .startSlide {
@@ -74,6 +76,7 @@
   .swiperBox {
     width: 95%;
   }
+
   .slides {
     border: 3px solid white;
     height: 400px;
@@ -91,6 +94,7 @@
     width: 80%;
   }
 }
+
 @media (min-width: 425px) {
   .swiperBox {
     width: 75%;
@@ -111,10 +115,11 @@
 
 @media (min-width: 1500px) {
   .swiperBox {
-    width: 60%;
+    width: 80%;
   }
+
   .slides {
     height: 400px;
-    width: 325px;
+    width: 285px;
   }
 }
