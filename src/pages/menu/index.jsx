@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   HeroMenu,
   MenuSection,
@@ -6,7 +6,6 @@ import {
   StyledSpan,
   TitleMenu,
   MainContent,
-  // BackToAll,
 } from './styles/index';
 import './styles/style.css';
 import Categories from './categories';
@@ -19,7 +18,19 @@ function Menu() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories] = useState(allCategories);
   const [activeCategory, setActiveCategory] = useState('');
-  const [showModal, setShowModal] = useState(false); // Додано стан для відображення модального вікна
+  const [showModal, setShowModal] = useState(false);
+  const [orderItems, setOrderItems] = useState([]);
+
+  useEffect(() => {
+    const savedOrderItems = localStorage.getItem('orderItems');
+    if (savedOrderItems) {
+      setOrderItems(JSON.parse(savedOrderItems));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('orderItems', JSON.stringify(orderItems));
+  }, [orderItems]);
 
   const filterItems = category => {
     if (category === 'Все') {
@@ -39,12 +50,29 @@ function Menu() {
     setShowModal(false);
   };
 
+  const handleBackdropClick = e => {
+    if (e.target === e.currentTarget) {
+      closeModal();
+    }
+  };
 
-const handleBackdropClick = e => {
-  if (e.target === e.currentTarget) {
+  const handleAddToOrder = (title, price) => {
+    const newItem = { title, price };
+    setOrderItems(prevItems => [...prevItems, newItem]);
+    console.log('Замовлено:', title);
+  };
+
+  const handleConfirmOrder = () => {
     closeModal();
-  }
-};
+    // Додайте власну логіку підтвердження замовлення
+  };
+
+  const handleRejectOrder = () => {
+    closeModal();
+    // Додайте власну логіку відхилення замовлення
+  };
+
+  const orderTotal = orderItems.reduce((total, item) => total + item.price, 0);
 
   return (
     <MenuSection>
@@ -63,10 +91,9 @@ const handleBackdropClick = e => {
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
         />
-        <CardMenu items={menuItems} handleOrderClick={handleOrderClick} />
+        <CardMenu items={menuItems} handleAddToOrder={handleAddToOrder} />
       </MainContent>
 
-      {/* Модальне вікно */}
       {showModal && (
         <div className="modal" onClick={handleBackdropClick}>
           <div className="modal-content">
@@ -74,7 +101,23 @@ const handleBackdropClick = e => {
               &times;
             </span>
             <h2>Модальне вікно</h2>
-            <p>Тут можна додати вміст модального вікна.</p>
+            <p>Список страв:</p>
+            <ul>
+              {orderItems.map((item, index) => (
+                <li key={index}>
+                  {item.title} - {item.price}грн
+                </li>
+              ))}
+            </ul>
+            <p>Загальна сума замовлення: {orderTotal}грн</p>
+            <div className="modal-buttons">
+              <button className="confirm-btn" onClick={handleConfirmOrder}>
+                Замовити
+              </button>
+              <button className="reject-btn" onClick={handleRejectOrder}>
+                Відхилити
+              </button>
+            </div>
           </div>
         </div>
       )}
