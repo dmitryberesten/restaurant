@@ -375,3 +375,12 @@ Menu
     border-radius: 4px;
     cursor: pointer;
 }
+
+.rejected .order-btn {
+  background-color: green;
+  color: white;
+}
+
+.rejected .order-btn:hover {
+  background-color: darkgreen;
+}

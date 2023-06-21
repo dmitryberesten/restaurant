@@ -20,6 +20,8 @@ function Menu() {
   const [activeCategory, setActiveCategory] = useState('');
   const [showModal, setShowModal] = useState(false);
   const [orderItems, setOrderItems] = useState([]);
+  const [isOrderPlaced, setIsOrderPlaced] = useState(false);
+
 
   useEffect(() => {
     const savedOrderItems = localStorage.getItem('orderItems');
@@ -62,17 +64,23 @@ function Menu() {
     console.log('Замовлено:', title);
   };
 
-  const handleConfirmOrder = () => {
-    closeModal();
-    // Додайте власну логіку підтвердження замовлення
-  };
+const handleConfirmOrder = () => {
+  setIsOrderPlaced(true);
+};
 
-  const handleRejectOrder = () => {
-    closeModal();
-    // Додайте власну логіку відхилення замовлення
-  };
 
-  const orderTotal = orderItems.reduce((total, item) => total + item.price, 0);
+const handleRejectOrder = () => {
+  closeModal();
+  setOrderItems([]);
+  localStorage.removeItem('orderItems');
+  setShowModal(false); // Add this line to close the modal
+};
+
+
+
+  const orderTotal = orderItems
+    .reduce((total, item) => total + item.price, 0)
+    .toFixed(2);
 
   return (
     <MenuSection>
@@ -91,7 +99,11 @@ function Menu() {
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
         />
-        <CardMenu items={menuItems} handleAddToOrder={handleAddToOrder} />
+        <CardMenu
+          items={menuItems}
+          handleAddToOrder={handleAddToOrder}
+          rejected={showModal && orderItems.length === 0}
+        />
       </MainContent>
 
       {showModal && (
@@ -100,24 +112,29 @@ function Menu() {
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <h2>Модальне вікно</h2>
-            <p>Список страв:</p>
-            <ul>
-              {orderItems.map((item, index) => (
-                <li key={index}>
-                  {item.title} - {item.price}грн
-                </li>
-              ))}
-            </ul>
-            <p>Загальна сума замовлення: {orderTotal}грн</p>
-            <div className="modal-buttons">
-              <button className="confirm-btn" onClick={handleConfirmOrder}>
-                Замовити
-              </button>
-              <button className="reject-btn" onClick={handleRejectOrder}>
-                Відхилити
-              </button>
-            </div>
+            <h2>{isOrderPlaced ? 'Дякуємо!' : 'Обрані страви'}</h2>
+            {isOrderPlaced ? (
+              <p>Дякуємо за ваше замовлення!</p>
+            ) : (
+              <>
+                <ul>
+                  {orderItems.map((item, index) => (
+                    <li key={index}>
+                      {item.title} - {item.price}грн
+                    </li>
+                  ))}
+                </ul>
+                <p>Загальна сума замовлення: {orderTotal}грн</p>
+                <div className="modal-buttons">
+                  <button className="confirm-btn" onClick={handleConfirmOrder}>
+                    Замовити
+                  </button>
+                  <button className="reject-btn" onClick={handleRejectOrder}>
+                    Відхилити
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}

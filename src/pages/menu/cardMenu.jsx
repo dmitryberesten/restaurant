@@ -1,9 +1,20 @@
 import React, { useState } from 'react';
 
-const CardMenu = ({ items, handleAddToOrder }) => {
+const CardMenu = ({
+  items,
+  handleAddToOrder,
+  showModal,
+  orderItems,
+  rejected,
+}) => {
   const [selectedItems, setSelectedItems] = useState([]);
 
   const handleButtonClick = (id, title, price) => {
+    if (showModal && orderItems.length === 0) {
+      // Do not update the selected items when the order is already rejected
+      return;
+    }
+
     if (selectedItems.includes(id)) {
       // Видалити елемент зі списку, якщо вже вибрано
       setSelectedItems(prevSelectedItems =>
@@ -24,7 +35,11 @@ const CardMenu = ({ items, handleAddToOrder }) => {
         const isSelected = selectedItems.includes(id);
 
         return (
-          <article id={id} className="menu-item" key={id}>
+          <article
+            id={id}
+            className={`menu-item ${rejected ? 'rejected' : ''}`}
+            key={id}
+          >
             <img src={img} alt={title} className="photo" />
 
             <div className="item-info">
