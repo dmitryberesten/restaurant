@@ -114,7 +114,7 @@ const handleRejectOrder = () => {
             </span>
             <h2>{isOrderPlaced ? 'Дякуємо!' : 'Обрані страви'}</h2>
             {isOrderPlaced ? (
-              <p>Дякуємо за ваше замовлення!</p>
+              <p>Смачного та приходьте ще :)</p>
             ) : (
               <>
                 <ul>
