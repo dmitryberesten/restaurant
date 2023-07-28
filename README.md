@@ -9,12 +9,6 @@
 6. Swiper
 7. Crossbrowsing
 
-MOBILE FIRST:
-
-
-
-
-
 
 
 
