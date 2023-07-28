@@ -11,12 +11,12 @@
 
 MOBILE FIRST:
 
-![1](https://github.com/dmitryberesten/restaurant/assets/87872240/8835493a-61e9-4077-addd-8f8791187514)
-![2](https://github.com/dmitryberesten/restaurant/assets/87872240/702003e9-8e22-4eb1-b991-3a5a510447ed)
-![3](https://github.com/dmitryberesten/restaurant/assets/87872240/c6ebf27a-e04a-41cf-9e1a-614ad9e6850e)
-![4](https://github.com/dmitryberesten/restaurant/assets/87872240/a7319e13-6119-499e-af8a-7b2d51078871)
-![5](https://github.com/dmitryberesten/restaurant/assets/87872240/02da8a5a-4d5c-4b5e-b8a6-06852c0a7d3a)
-![6](https://github.com/dmitryberesten/restaurant/assets/87872240/0a2f2df5-30df-4cbc-bd82-ad7ac2dc3e5e)
+
+
+
+
+
+
 
 
 1. Головна сторінка:
@@ -26,6 +26,7 @@ MOBILE FIRST:
 2. Відгуки клієнтів:
    
 ![2](https://github.com/dmitryberesten/restaurant/assets/87872240/19e60b6f-ead4-4873-a0b1-473256662c37)
+![1](https://github.com/dmitryberesten/restaurant/assets/87872240/8835493a-61e9-4077-addd-8f8791187514)
 
 3. Популярні страви:
 
@@ -38,6 +39,7 @@ MOBILE FIRST:
 5. Найпопулярніші страви:
 
 ![5](https://github.com/dmitryberesten/restaurant/assets/87872240/2dbec75f-e37a-4d4d-9e34-e45953c10eed)
+![2](https://github.com/dmitryberesten/restaurant/assets/87872240/702003e9-8e22-4eb1-b991-3a5a510447ed)
 
 6. Контакти + кнопка:
 
@@ -46,6 +48,7 @@ MOBILE FIRST:
 7. Меню:
 
 ![7](https://github.com/dmitryberesten/restaurant/assets/87872240/731522c6-f783-43f7-a666-ddc239a8ad97)
+![3](https://github.com/dmitryberesten/restaurant/assets/87872240/c6ebf27a-e04a-41cf-9e1a-614ad9e6850e)
 
 8. Модальне вікно:
 
@@ -58,12 +61,15 @@ MOBILE FIRST:
 10. Наша команда:
 
 ![10](https://github.com/dmitryberesten/restaurant/assets/87872240/0257e54e-5b0a-4102-a521-15fd8d6c8b1d)
+![4](https://github.com/dmitryberesten/restaurant/assets/87872240/a7319e13-6119-499e-af8a-7b2d51078871)
 
 11. Наші фахівці:
 
 ![11](https://github.com/dmitryberesten/restaurant/assets/87872240/2523f8f3-d9f5-440f-9e91-cc5912eeabc1)
+![5](https://github.com/dmitryberesten/restaurant/assets/87872240/02da8a5a-4d5c-4b5e-b8a6-06852c0a7d3a)
 
 12. Форма:
 
 ![12](https://github.com/dmitryberesten/restaurant/assets/87872240/7f855902-c0c1-4ae5-b2f6-308e4178a94d)
+![6](https://github.com/dmitryberesten/restaurant/assets/87872240/0a2f2df5-30df-4cbc-bd82-ad7ac2dc3e5e)
 
