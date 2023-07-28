@@ -6,6 +6,7 @@ import {
   OurTeamWrapper,
   TeamWrapper,
   TeamSection,
+  StyledP,
 } from './styles/index';
 import TeamMemberCard from './TeamMemberCard ';
 
@@ -16,10 +17,10 @@ const Team = () => {
         <TeamWrapper>
           <HeadingTeam>
             <StyledH1>Наша команда</StyledH1>
-            <p>
+            <StyledP>
               Це наша команда, люди, які готові надати нашим гостям винятковий
               кулінарний досвід.
-            </p>
+            </StyledP>
           </HeadingTeam>
           <OurTeamWrapper>
             <TeamMemberCard />

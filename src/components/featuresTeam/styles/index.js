@@ -33,6 +33,7 @@ export const FeaturesImage = styled('img')({
   width: '150px',
   height: '150px',
 });
+
 export const StyledH4 = styled('h4')({
   textAlign: 'center',
 });

@@ -3,11 +3,9 @@ import {
   StyledHeader,
   StyledNav,
   StyledNavLi,
-  // StyledNavA,
   StyledLogo,
   StyledLogoImg,
   StyledLink,
-  // StyledHamburger,
   StyledNavUl,
   StyledBurger,
 } from './styles';
@@ -31,13 +29,15 @@ const Header = () => {
   }, []);
 
   const handleToggle = () => {
-    setIsOpen((prev) => !prev);
+    setIsOpen(prev => !prev);
   };
 
   return (
     <StyledHeader fixed={fixed} className={fixed ? 'fixed' : ''}>
       <StyledLogo>
-        <StyledLink to="/"><StyledLogoImg src={Logo} /></StyledLink>
+        <StyledLink to="/">
+          <StyledLogoImg src={Logo} />
+        </StyledLink>
       </StyledLogo>
       <StyledBurger>
         <Hamburger className="halo" toggled={isOpen} toggle={handleToggle} />

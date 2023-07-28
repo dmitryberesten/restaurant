@@ -1,14 +1,3 @@
-/* .bgdinner {
-  background-image: url('../../../images/menubg.jpg');
-  height: 550px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(50%);
-} */
-
 .bgImage {
   background-image: url('../../../images/menubg.jpg');
   height: 600px;

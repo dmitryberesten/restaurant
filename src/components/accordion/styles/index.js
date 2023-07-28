@@ -5,6 +5,9 @@ export const AccordionSection = styled('section')({
   display: 'flex',
   justifyContent: 'center',
   marginBottom: '15vh',
+  '@media (max-width: 520px)': {
+    marginBottom: '0',
+  },
 });
 
 export const InfoSection = styled('section')({});
@@ -12,7 +15,6 @@ export const InfoSection = styled('section')({});
 export const StyledP = styled('p')(({ showInfo }) => ({
   transition: '.3s',
   maxHeight: showInfo ? '300px' : '0',
-  // border: '2px solid red',
   overflow: 'hidden',
   display: 'flex',
   textAlign: 'left',

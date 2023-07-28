@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/style.css';
 import {
-  // StyledImgHero,
   SectionHero,
   HeroWrapper,
   H1Hero,

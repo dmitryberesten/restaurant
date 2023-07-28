@@ -5,16 +5,16 @@ import './styles/style.css';
 
 const Question = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
-  
+
   return (
-    <article className='question'>
+    <article className="question">
       <header>
         <h4>{title}</h4>
-        <button className='btn' onClick={() => setShowInfo(!showInfo)}>
+        <button className="btn" onClick={() => setShowInfo(!showInfo)}>
           {showInfo ? (
-            <RxCaretUp className='icons' />
+            <RxCaretUp className="icons" />
           ) : (
-            <RxCaretDown className='icons' />
+            <RxCaretDown className="icons" />
           )}
         </button>
       </header>

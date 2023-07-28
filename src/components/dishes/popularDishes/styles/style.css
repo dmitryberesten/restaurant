@@ -1,14 +1,3 @@
-/* .menuBg {
-  background-image: url(' ../../../../images/about.jpg ');
-  height: 550px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(50%);
-} */
-
 .swiperWrapper {
   width: 100%;
   display: flex;

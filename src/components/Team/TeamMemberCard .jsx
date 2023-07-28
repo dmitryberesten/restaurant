@@ -20,7 +20,7 @@ const TeamMemberCard = () => {
     <StyledSwiper
       spaceBetween={80}
       slidesPerView={isPhoneScreen ? 1 : 3}
-      className='swiperBox'
+      className="swiperBox"
       initialSlide={2}
       loop={true}
       centeredSlides={true}
@@ -33,7 +33,7 @@ const TeamMemberCard = () => {
         disableOnInteraction: false,
       }}
     >
-      {TeamData.map((singlePerson) => {
+      {TeamData.map(singlePerson => {
         const { id, image, name, profession, socials } = singlePerson;
         return (
           <StyledSwiperSlide key={id}>
@@ -51,7 +51,7 @@ const TeamMemberCard = () => {
           </StyledSwiperSlide>
         );
       })}
-      <div className='swiper-pagination'></div>
+      <div className="swiper-pagination"></div>
     </StyledSwiper>
   );
 };

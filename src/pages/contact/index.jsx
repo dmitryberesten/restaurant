@@ -3,7 +3,6 @@ import QuickContact from '../../components/quickContact';
 import {
   ContactHero,
   InfoHero,
-  // WrapperHero,
   ContentHero,
   StyledH1,
   Contactsection,
@@ -17,10 +16,7 @@ function Contact() {
         <InfoHero>
           <ContentHero>
             <StyledH1>Зв'яжіться з нами</StyledH1>
-            <p>
-              напишіть нам повідомлення і ми з радістю дамо вам
-              відповіді
-            </p>
+            <p>напишіть нам повідомлення і ми з радістю дамо вам відповіді</p>
           </ContentHero>
         </InfoHero>
       </ContactHero>

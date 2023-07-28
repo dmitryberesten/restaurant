@@ -9,13 +9,17 @@ export const StyledHeader = styled('header')(({ fixed }) => ({
   alignItems: 'center',
   width: '100%',
   height: '80px',
-  // transition: '0.3s ease-in-out',
   justifyContent: 'space-around',
   zIndex: '99999',
   transition: '.6s',
   '&.fixed': {
     background: '#202020',
     height: '80px',
+  },
+  '@media (max-width: 768px)': {
+    justifyContent: 'space-between',
+    paddingLeft: '80px',
+    paddingRight: '20px',
   },
 }));
 

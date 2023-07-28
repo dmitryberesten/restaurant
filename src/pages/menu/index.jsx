@@ -22,7 +22,6 @@ function Menu() {
   const [orderItems, setOrderItems] = useState([]);
   const [isOrderPlaced, setIsOrderPlaced] = useState(false);
 
-
   useEffect(() => {
     const savedOrderItems = localStorage.getItem('orderItems');
     if (savedOrderItems) {
@@ -64,19 +63,16 @@ function Menu() {
     console.log('Замовлено:', title);
   };
 
-const handleConfirmOrder = () => {
-  setIsOrderPlaced(true);
-};
+  const handleConfirmOrder = () => {
+    setIsOrderPlaced(true);
+  };
 
-
-const handleRejectOrder = () => {
-  closeModal();
-  setOrderItems([]);
-  localStorage.removeItem('orderItems');
-  setShowModal(false); // Add this line to close the modal
-};
-
-
+  const handleRejectOrder = () => {
+    closeModal();
+    setOrderItems([]);
+    localStorage.removeItem('orderItems');
+    setShowModal(false); // Add this line to close the modal
+  };
 
   const orderTotal = orderItems
     .reduce((total, item) => total + item.price, 0)
@@ -87,7 +83,7 @@ const handleRejectOrder = () => {
       <HeroMenu>
         <div className="heroMenu"></div>
         <StyledWrapper>
-          Apetito<StyledSpan>Ресторан</StyledSpan>
+          Apetitto<StyledSpan> Ресторан</StyledSpan>
           <TitleMenu>Меню</TitleMenu>
         </StyledWrapper>
       </HeroMenu>

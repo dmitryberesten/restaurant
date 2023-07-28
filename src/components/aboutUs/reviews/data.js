@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 const reviews = [
   {
     id: 1,
-    name: 'Юлія Новак',
+    name: 'Оксана',
     rating: [
       <FaStar key={1} />,
       <FaStar key={2} />,
@@ -17,7 +17,7 @@ const reviews = [
   },
   {
     id: 2,
-    name: 'Клієнт',
+    name: 'Денис',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
@@ -25,7 +25,7 @@ const reviews = [
   },
   {
     id: 3,
-    name: 'Клієнт',
+    name: 'Анастасія',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://images.unsplash.com/photo-1499155286265-79a9dc9c6380?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
@@ -33,7 +33,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: 'Клієнт',
+    name: 'Орест',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg&ga=GA1.2.1682525672.1678217274&semt=sph',
@@ -41,7 +41,7 @@ const reviews = [
   },
   {
     id: 5,
-    name: 'Клієнт',
+    name: 'Олена',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&w=1600',
@@ -49,7 +49,7 @@ const reviews = [
   },
   {
     id: 6,
-    name: 'Клієнт',
+    name: 'Олександр',
     rating: [<FaStar />, <FaStar />, <FaStar />],
     image:
       'https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg?auto=compress&cs=tinysrgb&w=1600',
@@ -57,7 +57,7 @@ const reviews = [
   },
   {
     id: 7,
-    name: 'Клієнт',
+    name: 'Валентина',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://images.pexels.com/photos/1657501/pexels-photo-1657501.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -65,7 +65,7 @@ const reviews = [
   },
   {
     id: 8,
-    name: 'Клієнт',
+    name: 'Ірина',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://cdn.stocksnap.io/img-thumbs/280h/woman-model_IBNB839D96.jpg',
@@ -73,7 +73,7 @@ const reviews = [
   },
   {
     id: 9,
-    name: 'Клієнт',
+    name: 'Ігор',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://cdn.pixabay.com/photo/2017/08/01/01/33/beanie-2562646__340.jpg',
@@ -81,7 +81,7 @@ const reviews = [
   },
   {
     id: 10,
-    name: 'Клієнт',
+    name: 'Марина',
     rating: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],
     image:
       'https://img.freepik.com/free-photo/thoughtful-adorable-blonde-forty-years-old-pleased-woman-keeps-arms-folded-thinks-about-something-looks-away-wears-spectacles-knitted-sweater_273609-46841.jpg?size=626&ext=jpg&ga=GA1.1.1682525672.1678217274&semt=sph',

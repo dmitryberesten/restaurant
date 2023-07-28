@@ -9,7 +9,7 @@ const TeamData = [
   {
     id: 1,
     image: './images/personTeam1.jpg',
-    name: 'Stefan Avocado',
+    name: 'Василь',
     profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
@@ -21,8 +21,8 @@ const TeamData = [
   {
     id: 2,
     image: './images/personTeam2.jpg',
-    name: 'John Center',
-    profession: 'Офіціант',
+    name: 'Назар',
+    profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
       <StyledAiOutlineInstagram key={2} />,
@@ -33,7 +33,7 @@ const TeamData = [
   {
     id: 3,
     image: './images/personTeam3.jpg',
-    name: 'John Center',
+    name: 'Ліна',
     profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
@@ -45,8 +45,8 @@ const TeamData = [
   {
     id: 4,
     image: './images/personTeam4.jpg',
-    name: 'John Center',
-    profession: 'Офіціант',
+    name: 'Олеся',
+    profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
       <StyledAiOutlineInstagram key={2} />,
@@ -57,8 +57,8 @@ const TeamData = [
   {
     id: 5,
     image: './images/personTeam5.jpg',
-    name: 'John Center',
-    profession: 'Офіціант',
+    name: 'Михайло',
+    profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
       <StyledAiOutlineInstagram key={2} />,
@@ -69,8 +69,8 @@ const TeamData = [
   {
     id: 6,
     image: './images/personTeam6.jpg',
-    name: 'John Center',
-    profession: 'Офіціант',
+    name: 'Степан',
+    profession: 'Кухар',
     socials: [
       <StyledCiFacebook key={1} />,
       <StyledAiOutlineInstagram key={2} />,

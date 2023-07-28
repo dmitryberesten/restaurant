@@ -89,9 +89,6 @@ export const StyledH4 = styled('h4')({
 export const StyledImg = styled('img')({
   padding: '.5em',
   transition: '.5s',
-  '@media (min-width: 320px)': {
-    // width: '125px',
-  },
   '@media (min-width: 640px)': {
     width: 'none',
   },

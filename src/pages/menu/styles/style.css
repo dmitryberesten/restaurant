@@ -258,23 +258,6 @@ Menu
   }
 }
 
-/* .order-btn {
-  display: flex;
-  margin-left: auto;
-  align-self: self-end;
-  padding: 8px 16px;
-  font-size: 14px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.order-btn:hover {
-  background-color: #0056b3;
-} */
-
 .item-info {
   position: relative;
 }
@@ -317,8 +300,6 @@ Menu
 .order-btn:hover {
   background-color: #0056b3;
 }
-
-
 
 
 /* МОДАЛЬНЕ ВІКНО */
@@ -387,13 +368,13 @@ Menu
 .reject-btn {
   background-color: red;
   bottom: 0;
-    right: 0;
-    padding: 8px 16px;
-    font-size: 14px;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  right: 0;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .rejected .order-btn {

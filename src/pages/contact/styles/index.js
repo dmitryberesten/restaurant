@@ -4,7 +4,6 @@ export const ContactHero = styled('section')({
   height: '45vh',
   backgroundImage: 'url(./images/bgAbout.jpg)',
   backgroundPosition: 'center center',
-  // backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
   '@media (min-width: 320px)': {

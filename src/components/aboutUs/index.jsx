@@ -4,8 +4,6 @@ import {
   RestaurantWrapper,
   AboutInfo,
   H1About,
-  // StyledImgAbout,
-  // StyledImageBox,
   Description,
   LineDescription,
   ReviewWrapper,
@@ -44,10 +42,6 @@ const AboutUs = () => {
           <Reviews />
         </ReviewWrapper>
       </RestaurantWrapper>
-      {/* <StyledImageBox>
-          <StyledImgAbout src={about} />
-          <StyledImgAbout src={aboutS} />
-        </StyledImageBox> */}
     </AboutSection>
   );
 };

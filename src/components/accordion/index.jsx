@@ -5,10 +5,8 @@ import DataQuestion from './dataQuestions';
 import SingleQuestion from './Question';
 
 const Accordion = () => {
-  // const [questions, setQuestions] = useState(DataQuestion);
-
   const [questions] = useState(DataQuestion);
-  
+
   return (
     <AccordionSection>
       <div className="container">

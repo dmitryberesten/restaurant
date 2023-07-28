@@ -5,7 +5,7 @@ import dataFeatures from './dataFeatures';
 const FeaturesTeam = () => {
   return (
     <Features>
-      {dataFeatures.map((singleFeature) => {
+      {dataFeatures.map(singleFeature => {
         const { id, image, title, paragraph } = singleFeature;
         return (
           <SingleBox key={id}>

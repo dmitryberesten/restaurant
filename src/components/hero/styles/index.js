@@ -23,6 +23,9 @@ export const SectionHero = styled('section')({
   '@media (min-width: 1024px)': {
     minHeight: '60vh',
   },
+  '@media (max-width: 500px)': {
+    minHeight: '20vh',
+  },
 });
 
 export const HeroWrapper = styled('div')({});
@@ -57,7 +60,6 @@ export const H3SubTitle = styled('h3')({
   fontSize: '1.5em',
   marginLeft: 'auto',
   marginRight: 'auto',
-  // marginTop: '-1.5em',
   fontWeight: '700',
   '@media (min-width: 320px)': {
     width: '90%',
@@ -72,10 +74,3 @@ export const H3SubTitle = styled('h3')({
     fontSize: '1.5em',
   },
 });
-
-// export const StyledBg = styled('img')({
-//   backgroundImage: 'url(/public/images/hero.jpg)',
-//   width: '100%',
-//   minWidth: '90vh',
-//   position: 'absolute',
-// });

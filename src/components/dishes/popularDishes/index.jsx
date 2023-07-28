@@ -12,7 +12,6 @@ import './styles/style.css';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css';
-// import { Autoplay, Pagination, Navigation } from 'swiper';
 import { Autoplay, Pagination } from 'swiper';
 import { useMediaQuery } from '@mui/material';
 
@@ -80,7 +79,6 @@ const PopularDishes = () => {
               <SpanSLideTitle>Паста</SpanSLideTitle>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide className='SlideWrapper' /> */}
         </Swiper>
       </div>
     </DishesWrapper>

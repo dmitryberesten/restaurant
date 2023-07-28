@@ -1,10 +1,6 @@
 import { styled } from '@mui/material';
 import TextField from '@mui/material/TextField';
-// import Button from '@mui/material/Button';
 import Select from '@mui/material/Select';
-// import MenuItem from '@mui/material/MenuItem';
-// import FormControl from '@mui/material/FormControl';
-// import InputLabel from '@mui/material/InputLabel';
 import TextareaAutosize from '@mui/material/TextareaAutosize';
 
 export const FormContainer = styled('form')({
@@ -36,6 +32,7 @@ export const MessageContainer = styled('p')({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+  color: 'green',
 
   padding: '3rem',
   border: '1px solid #ccc',
@@ -50,7 +47,6 @@ export const MessageContainer = styled('p')({
     width: '55%',
   },
 });
-
 
 export const InputContainer = styled('div')({
   display: 'grid',

@@ -8,7 +8,6 @@ import {
   MessageContainer,
 } from './styles';
 
-// import { InputLabel, MenuItem, Button } from '@mui/material';
 import { MenuItem, Button } from '@mui/material';
 
 const options = [
@@ -25,9 +24,6 @@ const Form = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    // handle form submit logic
-
-    // Позначаємо, що форма була відправлена
     setFormSubmitted(true);
   };
 
@@ -36,11 +32,7 @@ const Form = () => {
   };
 
   if (formSubmitted) {
-    return (
-      <MessageContainer>
-        Дякуємо за повідомлення!
-      </MessageContainer>
-    );
+    return <MessageContainer>Дякуємо за повідомлення!</MessageContainer>;
   }
 
   return (

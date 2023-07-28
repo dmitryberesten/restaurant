@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Styledfooter,
-  // LogoImg,
   FooterSocials,
   StyledFacebook,
   StyledTwitter,
@@ -14,8 +13,6 @@ import {
   StyledSpan,
   ColorLogo,
 } from './styles/index';
-// import { Link } from 'react-router-dom';
-// import Logo from '../../images/logo.svg';
 
 const Footer = () => {
   return (
@@ -27,7 +24,6 @@ const Footer = () => {
         <StyledYoutube />
         <StyledTelegram />
       </FooterSocials>
-      {/* <LogoImg src={Logo} alt="" /> */}
       <StyledRight>
         <Styledinfo>
           <StyledSpan>Ресторан Apetitto</StyledSpan>

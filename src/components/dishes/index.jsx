@@ -6,7 +6,7 @@ import './styles/style.css';
 const Menu = () => {
   return (
     <SectionMenu>
-      <div className='bgImage'></div>
+      <div className="bgImage"></div>
       <PopularDishes />
     </SectionMenu>
   );
