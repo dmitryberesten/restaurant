@@ -9,6 +9,16 @@
 6. Swiper
 7. Crossbrowsing
 
+MOBILE FIRST:
+
+![1](https://github.com/dmitryberesten/restaurant/assets/87872240/8835493a-61e9-4077-addd-8f8791187514)
+![2](https://github.com/dmitryberesten/restaurant/assets/87872240/702003e9-8e22-4eb1-b991-3a5a510447ed)
+![3](https://github.com/dmitryberesten/restaurant/assets/87872240/c6ebf27a-e04a-41cf-9e1a-614ad9e6850e)
+![4](https://github.com/dmitryberesten/restaurant/assets/87872240/a7319e13-6119-499e-af8a-7b2d51078871)
+![5](https://github.com/dmitryberesten/restaurant/assets/87872240/02da8a5a-4d5c-4b5e-b8a6-06852c0a7d3a)
+![6](https://github.com/dmitryberesten/restaurant/assets/87872240/0a2f2df5-30df-4cbc-bd82-ad7ac2dc3e5e)
+
+
 1. Головна сторінка:
 
 ![1](https://github.com/dmitryberesten/restaurant/assets/87872240/c93eaf24-af9f-4a3d-8fad-dad28101e893)
